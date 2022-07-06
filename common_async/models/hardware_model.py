@@ -1,4 +1,4 @@
-from common.models.items.hardware import Skillet, Bowl
+from common_async.models.items.hardware import Skillet, Bowl
 
 
 class HardwareModel:

@@ -1,6 +1,6 @@
-from common.models.ingredients_model import IngredientsModel
-from common.models.hardware_model import HardwareModel
-from common.models.tools_model import ToolsModel
+from common_csp.models.ingredients_model import IngredientsModel
+from common_csp.models.hardware_model import HardwareModel
+from common_csp.models.tools_model import ToolsModel
 
 
 class PrepModel:

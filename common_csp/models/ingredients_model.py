@@ -1,4 +1,4 @@
-from common.models.items.ingredients import Milk, Eggs, Flour
+from common_csp.models.items.ingredients import Milk, Eggs, Flour
 
 
 class IngredientsModel:

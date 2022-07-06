@@ -1,6 +1,6 @@
 import time
-from common.models.items.batter import Batter
-from common.models.items.ingredients import Eggs, Flour, Milk
+from common_csp.models.items.batter import Batter
+from common_csp.models.items.ingredients import Eggs, Flour, Milk
 
 
 class Skillet:
@@ -14,7 +14,7 @@ class Skillet:
 
 
 class Bowl:
-    from common.models.items.tools import Mixer, RubberSpatula
+    from common_csp.models.items.tools import Mixer, RubberSpatula
 
     def __init__(self) -> None:
         self.milk: Milk = None

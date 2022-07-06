@@ -1,6 +1,6 @@
-from common.models.items.hardware import Bowl, Skillet
-from common.models.items.pancake import Pancake
-from common.models.items.tools import RubberSpatula, Spatula
+from common_csp.models.items.hardware import Bowl, Skillet
+from common_csp.models.items.pancake import Pancake
+from common_csp.models.items.tools import RubberSpatula, Spatula
 
 
 def cook(

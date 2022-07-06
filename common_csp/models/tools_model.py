@@ -1,6 +1,6 @@
 import time
-from common.models.items.ingredients import Eggs
-from common.models.items.tools import (
+from common_csp.models.items.ingredients import Eggs
+from common_csp.models.items.tools import (
     Mixer,
     Spatula,
     RubberSpatula,

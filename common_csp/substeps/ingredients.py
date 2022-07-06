@@ -1,6 +1,6 @@
 import time
-from common.models.ingredients_model import IngredientsModel
-from common.models.items.ingredients import Eggs, Flour, Milk
+from common_csp.models.ingredients_model import IngredientsModel
+from common_csp.models.items.ingredients import Eggs, Flour, Milk
 
 
 def get_ingredients() -> IngredientsModel:

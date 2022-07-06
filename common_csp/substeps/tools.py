@@ -1,12 +1,12 @@
 import time
-from common.models.items.tools import (
+from common_csp.models.items.tools import (
     MeasuringCups,
     MeasuringSpoons,
     Mixer,
     RubberSpatula,
     Spatula,
 )
-from common.models.tools_model import ToolsModel
+from common_csp.models.tools_model import ToolsModel
 
 
 def get_tools() -> ToolsModel:

@@ -1,7 +1,7 @@
 from common.models.items.hardware import Bowl, Skillet
 from common.models.items.ingredients import Eggs, Flour, Milk
 from common.models.items.tools import MeasuringCups, MeasuringSpoons, Mixer
-from common.substeps.hardware import _get_mixing_bowl
+from common.substeps.hardware import get_mixing_bowl
 from common.substeps.ingredients import get_eggs, get_flour, get_milk
 from common.substeps.tools import get_measuring_cups, get_measuring_spoons, get_mixer
 from linear.cook import cook
@@ -12,7 +12,7 @@ def mix(skillet: Skillet):
     measuring_cups: MeasuringCups = get_measuring_cups()
     measuring_spoons: MeasuringSpoons = get_measuring_spoons()
 
-    bowl: Bowl = _get_mixing_bowl()
+    bowl: Bowl = get_mixing_bowl()
 
     milk: Milk = get_milk()
     eggs: Eggs = get_eggs()
@@ -30,5 +30,4 @@ def mix(skillet: Skillet):
 
 
 def count_eggs(eggs: Eggs) -> Eggs:
-    # magic
     return eggs

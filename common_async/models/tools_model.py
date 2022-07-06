@@ -1,6 +1,6 @@
-import time
-from common.models.items.ingredients import Eggs
-from common.models.items.tools import (
+import asyncio
+from common_async.models.items.ingredients import Eggs
+from common_async.models.items.tools import (
     Mixer,
     Spatula,
     RubberSpatula,
@@ -24,6 +24,6 @@ class ToolsModel:
         self.measuring_cups: MeasuringCups = measuring_cups
         self.measuring_spoons: MeasuringSpoons = measuring_spoons
 
-    def count_eggs(self, eggs: Eggs):
-        time.sleep(0.1)
+    async def count_eggs(self, eggs: Eggs):
+        await asyncio.sleep(0.1)
         return eggs

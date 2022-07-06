@@ -1,6 +1,6 @@
 import time
-from common.models.hardware_model import HardwareModel
-from common.models.items.hardware import Skillet, Bowl
+from common_csp.models.hardware_model import HardwareModel
+from common_csp.models.items.hardware import Skillet, Bowl
 
 
 def get_hardware() -> HardwareModel:
